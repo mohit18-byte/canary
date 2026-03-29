@@ -1,0 +1,69 @@
+{
+  "pipeline": "phase-3-test",
+  "provider": "OpenAI",
+  "total_duration_seconds": 35.9,
+  "steps": {
+    "scrape": {
+      "duration_seconds": 33,
+      "raw_changelog": {
+        "entries": [
+          {
+            "date": "2026-03-17",
+            "title": "Released GPT-5.4 mini and GPT-5.4 nano",
+            "summary": "Released GPT-5.4 mini and GPT-5.4 nano to the Chat Completions and Responses API. mini is designed for efficiency in high-volume workloads, while nano is optimized for simple tasks where speed and cost are critical.",
+            "source": "changelog"
+          },
+          {
+            "date": "2026-03-16",
+            "title": "Updated gpt-5.3-chat-latest",
+            "summary": "Updated the gpt-5.3-chat-latest slug to point to the latest model version currently used in ChatGPT.",
+            "source": "changelog"
+          },
+          {
+            "date": "2026-03-13",
+            "title": "Fixed image encoder bug in GPT-5.4",
+            "summary": "Updated the image encoder to fix a bug with input_image inputs in GPT-5.4, which may improve quality for certain image understanding use cases.",
+            "source": "changelog"
+          }
+        ]
+      }
+    },
+    "diff": {
+      "is_first_scan": false,
+      "new_entries_count": 1,
+      "new_entries": [
+        {
+          "date": "2026-03-13",
+          "title": "Fixed image encoder bug in GPT-5.4",
+          "summary": "Updated the image encoder to fix a bug with input_image inputs in GPT-5.4, which may improve quality for certain image understanding use cases.",
+          "source": "changelog"
+        }
+      ]
+    },
+    "classification": {
+      "duration_seconds": 0,
+      "classified_changes": [
+        {
+          "title": "Fixed image encoder bug in GPT-5.4",
+          "date": "2026-03-13",
+          "source": "changelog",
+          "change_type": "feature",
+          "urgency": 2,
+          "impact": "This is a new capability or improvement to the API.",
+          "action_required": "No immediate action required. Optional to evaluate usage.",
+          "timeline": "later"
+        }
+      ]
+    },
+    "email": {
+      "triggered": false,
+      "critical_count": 0,
+      "error": null
+    }
+  },
+  "confirmations": {
+    "diff_works": true,
+    "classification_valid": true,
+    "email_handled": true
+  }
+}
