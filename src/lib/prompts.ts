@@ -4,7 +4,7 @@ export function changelogGoal(url: string): string {
   return `Open this URL directly:
 ${url}
 
-Step 2: Extract the 5 most recent changelog updates.
+Step 2: Extract the 10 most recent changelog updates.
 
 Step 3: For each changelog entry, deeply analyze and extract:
 
