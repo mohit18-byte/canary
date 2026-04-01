@@ -78,14 +78,7 @@ export default function HomePage() {
           >
             Run Live API Scan →
           </Link>
-          <a
-            href="https://github.com/mohit18-byte/canary"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-2.5 text-sm font-medium text-zinc-400 border border-zinc-800 rounded-lg hover:border-zinc-600 hover:text-white transition-all duration-200"
-          >
-            View on GitHub
-          </a>
+          
         </div>
         <p className="mt-3 text-xs text-zinc-500">
           Used by teams building with Stripe, OpenAI, GitHub, and more.
